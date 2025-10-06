@@ -109,3 +109,22 @@ constructNull_Guassian_pool <- function(mat, label, mu_est, cov_mat = NULL) {
 
   return(new_mvn)
 }
+
+
+score_func <- function(mu, mu_mean = NULL,sigma, gene){
+  K = nrow(mu)
+  comb_mat = matrix(0, nrow = 1, ncol =ncol(mu))
+
+  for (i in 1:K) {
+
+    for (j in 1:K) {
+
+      comb_mat[ ,gene] = comb_mat[ ,gene] + (mu[i,gene] - mu[j,gene])^2/sigma
+
+    }
+
+  }
+
+  return(comb_mat/2)
+
+}
