@@ -1,6 +1,6 @@
 # PARSE-DE Pipeline
 
-This repository implements the **PARSE-DE** workflow for differential expression (DE) analysis in single-cell or spatial transcriptomics data.  
+This repository implements the **PARSE-DE** workflow for differential expression (DE) analysis in single-cell data.  
 The project is organized into modular scripts for reproducibility and flexibility.
 
 ---
