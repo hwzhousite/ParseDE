@@ -1,2 +1,5 @@
 # ParseDE
-pipeline 
+pipeline for ParseDE
+
+Step1: Data Loading
+file - 
