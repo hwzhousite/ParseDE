@@ -1,3 +1,6 @@
+library(PARSE)
+library(Seurat)
+
 constructNull_Guassian <- function(mat, cov_mat = NULL) {
 
 
