@@ -20,4 +20,4 @@ The project is organized into modular scripts for reproducibility and flexibilit
 
 1. **Set up your environment**
    ```r
-   install.packages(c("PARSE", "Seurat", "mvtnorm", "ggplot2", "Matrix"))
+   install.packages(c("PARSE", "Seurat", "mvtnorm", "ggplot2", "Matrix","knockoff"))
